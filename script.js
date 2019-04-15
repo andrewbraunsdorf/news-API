@@ -21,4 +21,9 @@ function search() {
         document.getElementById('results').innerHTML = ''
         // data.articles
     };
+    // console.log(xhrCall);
+
+    xhrCall.send();
+
+    // console.log('The button was clicked!');
 }
